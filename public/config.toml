@@ -1,0 +1,25 @@
+baseurl = "https://kmgolden.github.io/corinneChin"
+title = "Corinne Chin | Video Journalist"
+languageCode = "en-us"
+pygmentsUseClasses = false
+PygmentsCodeFencesGuessSyntax = true
+pygmentsStyle = "monokai"
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+builddrafts = false
+cononifyurls = true
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[params]
+  description = "Corinne Chin is a Video Journalist."
+  author = "Corinne Chin"
+  favicon = "favicon.png"
+
+[params.social]
+  twitter = "https://twitter.com/corinnechin"
+  instagram = "https://instagram.com/corinnechinstagram"
+  linkedin = "https://linkedin.com/in/corinnechin"

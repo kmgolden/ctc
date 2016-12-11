@@ -1,0 +1,19 @@
+{{ partial "header.html" . }}
+    <!--<h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>-->
+
+
+		<div class="hero">
+
+					<div class="video-youtube">
+						<iframe width="640" height="360" src="{{ .Params.vid }}" frameborder="0" allowfullscreen></iframe>
+					</div>
+				<div class="herotext">
+					<h3>{{ .Title }}</h3>
+					<caption>{{ .Description }}</caption>
+				</div>
+
+		</div>
+		{{ range where .Data.Pages "Section" "article" }}
+			{{ .Render "li" }}
+		{{ end }}
+{{ partial "footer.html" . }}

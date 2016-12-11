@@ -1,0 +1,12 @@
+    <div class="col span_1_of_3">
+      <a href="{{ .Permalink }}">
+        <figure class="item">
+          <div class="overlay color"><img src="{{ .Params.image }}" alt="{{ .Title }}"></div>
+          <div class="itemtext">
+            <h4>{{ .Title }}</h4>
+            <caption>{{ .Description }}</caption>
+            <div>{{ .Params.tags }}</div>
+          </div>
+        </figure>
+      </a>
+    </div>
