@@ -1,5 +1,4 @@
 {{ partial "header.html" . }}
-{{ $baseurl := .Site.BaseURL }}
     <!--<h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>-->
 		<div class="hero">
 			<figure class="herofig">
@@ -10,8 +9,5 @@
 				</div>
 			</figure>
 		</div>
-		{{ range where .Data.Pages "Section" "article" }}
-			{{ .Render "li" }}
-		{{ end }}
 
 {{ partial "footer.html" . }}
