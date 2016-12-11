@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Corinne Chin | Video Journalist</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="icon" href="https://kmgolden.github.io/ctc/icon/favicon.png" type="image/x-icon" />
+	<link rel="apple-touch-icon-precomposed" href="https://kmgolden.github.io/ctc/images/icons/" />
+	<link rel="stylesheet" type="text/css" href="https://kmgolden.github.io/ctc/css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="https://kmgolden.github.io/ctc/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Libre+Franklin:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+	
+	
+		<meta name="generator" content="Hugo 0.17" />
+	<style>
+		.color:after {
+		  background-color: white;
+		  cursor: pointer;
+		}
+		a{
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="heading">
+			<a href="https://kmgolden.github.io/ctc">
+				<h1>Corinne Chin</h1>
+				<h2>Video Journalist</h2>
+			</a>
+			<nav>
+				<ul>
+					<li><a href="https://kmgolden.github.io/ctc/about">About</a></li>
+					<li><a href="https://kmgolden.github.io/ctc/contact">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+
+<body>
+    
+		<div class="aboutme"><p><p>I am currently a video editor at The Seattle Times, where I work with our dynamic photo team to film and edit compelling visual stories. You might find me working solo, or I may be collaborating with a team of talented photographers, reporters and designers across the newsroom. I might spend my work day in the edit bay, or I might spend it shooting from the sideline of CenturyLink Field. Each day brings new opportunities to redefine quality video journalism in a rapidly evolving media landscape.</p>
+
+<p>Previously, you may have found me pursuing freelance work in Kenya, Brazil, South Africa, Burkina Faso, Uganda or Malawi. As a student in Chicago, I completed a Midwest Emmy-winning documentary on an ex-felon working to protect children from gang violence. My work has been recognized by the National Academy of Television Arts and Sciences, the Illinois Press Photographers Association, the Society of Professional Journalists, the GroundTruth Project and more. As a master’s student at Northwestern University’s Medill School of Journalism, I concentrated in documentary video production, and my undergraduate degree, also from Medill, is in magazine writing.</p>
+
+<p>For the latest news on my other creative ventures – from wedding invitation design to acro yoga to classical music performance – follow me on Twitter
+<a href="https://twitter.com/corinnechin" target="_blank">@CorinneChin</a>.</p>
+</p></div>
+		<div class="footer">
+  <ul>
+    <li><a href="https://kmgolden.github.io/ctc/about">About</a></li>
+    <li><a href="https://kmgolden.github.io/ctc/contact">Contact</a></li>
+    <li>&#169; Corinne Chin 2016.</li>
+  </ul>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="https://kmgolden.github.io/ctc/js/3wrap.js"></script>
+<script>
+
+
+
+
+
+  $(".item").click(function(){
+        var isInternal = $(this).attr('data-internal');
+        var GetSlug = $(this).prop('id');
+        var GetTitle = $(this).attr('data-title');
+        var GetDescription = $(this).attr('data-desc');
+        var GetVid = $(this).attr('data-vid');
+        var VideoWrapperA =
+          '<div class="video-youtube">\
+                <iframe width="640" height="360" src="';
+        var VideoWrapperB =
+          '" frameborder="0"\ allowfullscreen></iframe>\
+          </div>';
+        if (isInternal === "true"){
+          $("#hero").html(VideoWrapperA + GetVid + VideoWrapperB + '<div class="herotext"><h3>' + GetTitle + '</h3><caption>' + GetDescription + '</caption></div>');
+          window.scrollTo(0,0);
+        } else {
+          window.open(GetVid, "_blank");
+        };
+      });
+</script>
+</div>
+</body>
+</html>
+
+</body>
+</html>
