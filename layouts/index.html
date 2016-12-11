@@ -1,0 +1,20 @@
+{{ partial "header.html" . }}
+
+		<div class="content">
+			<div id="hero">
+				<figure class="herofig">
+					<video autoplay loop>
+			  			<source src="{{ .Site.BaseURL }}/img/dining-out-placeholder.mp4" type="video/mp4">
+			  			Your browser does not support the video tag.
+					</video>
+					<!--<div class="herotext">
+						<h3>Title of work</h3>
+						<caption>Description of work. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut imperdiet dui, nec malesuada turpis. Nullam nec neque vitae leo consequat aliquet vel nec nulla.</caption>
+					</div>-->
+				</figure>
+			</div>
+					{{ range where .Data.Pages "Section" "article" }}
+						{{ .Render "li" }}
+					{{ end }}
+		</div><!--end content-->
+{{ partial "footer.html" . }}

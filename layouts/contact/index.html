@@ -1,0 +1,14 @@
+{{ partial "header.html" . }}
+<body>
+    <!--<h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>-->
+    <div class="contactme">
+        <p>206 464 2387<br>
+          <a href="mailto:cchin@seattletimes.com" target="_blank">cchin@seattletimes.com</a><br>
+        </p>
+        <p>
+          <a href="{{ .Site.Params.social.twitter }}" target="_blank">@CorinneChin</a><br>
+          <a href="{{ .Site.Params.social.instagram }}" target="_blank">@corinnechinstagram</a><br>
+          <a href="{{ .Site.Params.social.linkedin }}">LinkedIn</a><br>
+        </p>
+    </div>
+{{ partial "footer.html" . }}

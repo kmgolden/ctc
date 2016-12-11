@@ -1,0 +1,38 @@
+<div class="footer">
+  <ul>
+    <li><a href="{{ .Site.BaseURL }}/about">About</a></li>
+    <li><a href="{{ .Site.BaseURL }}/contact">Contact</a></li>
+    <li>&#169; Corinne Chin 2016.</li>
+  </ul>
+</div><!--end footer-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="{{ .Site.BaseURL }}/js/3wrap.js"></script>
+<script>
+// define what happens on click
+// define variable(s) to identify the content of what was clicked
+// if IsInternal = true, render the html in the hero element, leveraging Hugo
+// Otherwise, open link in new window
+// end javascript
+  $(".item").click(function(){
+        var isInternal = $(this).attr('data-internal');
+        var GetSlug = $(this).prop('id');
+        var GetTitle = $(this).attr('data-title');
+        var GetDescription = $(this).attr('data-desc');
+        var GetVid = $(this).attr('data-vid');
+        var VideoWrapperA =
+          '<div class="video-youtube">\
+                <iframe width="640" height="360" src="';
+        var VideoWrapperB =
+          '" frameborder="0"\ allowfullscreen></iframe>\
+          </div>';
+        if (isInternal === "true"){
+          $("#hero").html(VideoWrapperA + GetVid + VideoWrapperB + '<div class="herotext"><h3>' + GetTitle + '</h3><caption>' + GetDescription + '</caption></div>');
+          window.scrollTo(0,0);
+        } else {
+          window.open(GetVid, "_blank");
+        };
+      });
+</script>
+</div><!--end container-->
+</body>
+</html>
