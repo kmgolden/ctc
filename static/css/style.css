@@ -1,16 +1,16 @@
 .container{
 	width: 95%;
 	margin: auto;
-	margin-top: 6.18em;
+	margin-top: 98px;
 }
 
 body{
  font-family: 'Libre Franklin', sans-serif;;
- letter-spacing: -.75px;
+ letter-spacing: -.15px;
 }
 
 .heading{
-	margin-bottom: .25em;
+	margin-bottom: 1%;
 }
 
 .heading>a{
@@ -18,24 +18,27 @@ body{
 }
 
 h1{
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	display: inline;
-	font-weight: bold;
+	font-family: 'Playfair Display';
+	font-weight: 400;
 }
 
 h2{
 	display: inline;
-	font-size: 1em;
+	font-size: 1.32rem;
 	font-weight: 100;
-	margin-left: .2em;
+	margin-left: .3em;
 	text-transform: uppercase;
 
 }
 
 .heading>nav{
-	display: inline;
+	float: right;
 	text-transform: uppercase;
 	font-size: .8em;
+	margin: 0;
+	padding: 20px 0 0 0;
 }
 
 ul{
@@ -91,26 +94,42 @@ img{
   box-sizing: border-box;
 }
 
+/*keeping this in case you need to rebuild*/
+/*.overlay {*/
+/*  position: relative;*/
+/*}*/
 
-.overlay {
-  position: relative;
-}
-
-.overlay:after {
-  position: absolute;
+.overlay:after{
+/*  position: absolute;*/
   content:"";
   top:0;
   left:0;
   width:100%;
   height:100%;
   opacity:0;
+	background-color: white;
 }
 
-.overlay:hover:after  {
-  opacity: .1;
+/*.overlay:hover{
+		opacity: .75;
+}*/
+
+.hover{
+	opacity:.75;
 }
 
-/* hover cover in header.html due to Go*/
+.overlay:hover ~ .itemtext{
+	font-style: italic;
+}
+
+/*.color:after {
+	background-color: white;
+	cursor: pointer;
+}*/
+
+a{
+	cursor: pointer;
+}
 
 a:link{
 	color: black;
@@ -135,10 +154,10 @@ a:active{
 
 .herotext>h3{
 	margin-top: 1.382em;
+	text-transform: uppercase;
 }
 
-.item:hover{
-	font-style: italic;
+.item:hover {
 	cursor: pointer;
 }
 
@@ -157,11 +176,21 @@ a:active{
 	max-width: 89%
 }
 
+.itemtext:hover{
+	font-style: italic;
+}
+
+/*.itemtext:hover ~ .overlay:after{
+	opacity: .75;
+}*/
+
+.item>ul>li>a{
+	font-size:.8em;
+}
 
 .footer{
 	margin-top:2em;
 	margin-bottom: 2em;
-
 }
 
 .footer>ul>li{
@@ -181,9 +210,22 @@ a:active{
 	font-weight: 100;
 }
 
+.contactme>p:last-child{
+	font-size: 1.32rem;
+	line-height: 1.32rem;
+}
+
 .contactme>p>a{
 	text-decoration: none;
 }
+
+.identifier{
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: .8em;
+	margin-right: .5em;
+}
+
 
 .aboutme{
 	max-width: 71%;
@@ -206,8 +248,73 @@ a:active{
 
 #taxonomytitle{
 	display: inline;
+	font-family: 'Libre Franklin', sans-serif;
 	font-size: 1em;
 	font-weight: 100;
 	margin-left: .2em;
 	text-transform: uppercase;
+}
+
+.fixed-header {
+  position: fixed;
+  top:0;
+  width: 95.1%;
+	max-width: 1080px;
+	background-color: white;
+	z-index: 1000;
+	padding: 1% 1px 1% 0;
+}
+
+@media (min-width: 1080px){
+	.container{
+		width: 1080px;
+	}
+}
+
+@media (max-width: 580px){
+	.herofig{
+		display: none;
+	}
+	.aboutme{
+		max-width: 100%;
+	}
+	.herotext{
+		max-width: 100%;
+	}
+	.container{
+		margin-top: 2.5%;
+	}
+
+	.heading>a>h1{
+		display: block;
+		margin: 0;
+		font-size: 1.55em;
+	}
+
+	.heading>a>h2{
+		display: block;
+		margin-left: 0;
+		margin: 0;
+		font-size: 1em;
+	}
+
+	.heading>nav{
+		float: none;
+		padding: 2.5% 0 4% 0;
+	}
+
+	.heading>nav>ul>li{
+		margin-left: 0;
+	}
+
+	.heading>nav>ul>li:last-child{
+		margin-left: .5em;
+	}
+
+	.contactme{
+		font-size: 1.32em;
+		max-width: 100%;
+	}
+
+
 }

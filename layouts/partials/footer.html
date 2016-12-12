@@ -19,6 +19,7 @@
         var GetTitle = $(this).attr('data-title');
         var GetDescription = $(this).attr('data-desc');
         var GetVid = $(this).attr('data-vid');
+        var tags = $(this).attr('data-tags')
         var VideoWrapperA =
           '<div class="video-youtube">\
                 <iframe width="640" height="360" src="';
@@ -28,10 +29,24 @@
         if (isInternal === "true"){
           $("#hero").html(VideoWrapperA + GetVid + VideoWrapperB + '<div class="herotext"><h3>' + GetTitle + '</h3><caption>' + GetDescription + '</caption></div>');
           window.scrollTo(0,0);
+          // console.log(tags);
         } else {
           window.open(GetVid, "_blank");
         };
       });
+    $(window).scroll(function(){
+      if ($(window).scrollTop() >= 98 ) {
+        $('.heading').addClass('fixed-header');
+      } else {
+        $('.heading').removeClass('fixed-header fadeInDown');
+      }
+    });
+    //make this cleaner
+    $('.item').hover(function(){
+      $(this).addClass('hover');
+    }, function() {$(this).removeClass('hover');
+      });
+
 </script>
 </div><!--end container-->
 </body>

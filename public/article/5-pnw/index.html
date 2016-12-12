@@ -8,19 +8,11 @@
 	<link rel="apple-touch-icon-precomposed" href="https://kmgolden.github.io/ctc/images/icons/" />
 	<link rel="stylesheet" type="text/css" href="https://kmgolden.github.io/ctc/css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="https://kmgolden.github.io/ctc/css/style.css">
+
 	<link href="https://fonts.googleapis.com/css?family=Libre+Franklin:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 	
 	
 		<meta name="generator" content="Hugo 0.17" />
-	<style>
-		.color:after {
-		  background-color: white;
-		  cursor: pointer;
-		}
-		a{
-			cursor: pointer;
-		}
-	</style>
 </head>
 <body>
 	<div class="container">
@@ -71,6 +63,7 @@
         var GetTitle = $(this).attr('data-title');
         var GetDescription = $(this).attr('data-desc');
         var GetVid = $(this).attr('data-vid');
+        var tags = $(this).attr('data-tags')
         var VideoWrapperA =
           '<div class="video-youtube">\
                 <iframe width="640" height="360" src="';
@@ -80,10 +73,24 @@
         if (isInternal === "true"){
           $("#hero").html(VideoWrapperA + GetVid + VideoWrapperB + '<div class="herotext"><h3>' + GetTitle + '</h3><caption>' + GetDescription + '</caption></div>');
           window.scrollTo(0,0);
+          
         } else {
           window.open(GetVid, "_blank");
         };
       });
+    $(window).scroll(function(){
+      if ($(window).scrollTop() >= 98 ) {
+        $('.heading').addClass('fixed-header');
+      } else {
+        $('.heading').removeClass('fixed-header fadeInDown');
+      }
+    });
+    
+    $('.item').hover(function(){
+      $(this).addClass('hover');
+    }, function() {$(this).removeClass('hover');
+      });
+
 </script>
 </div>
 </body>
