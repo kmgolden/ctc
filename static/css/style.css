@@ -116,11 +116,13 @@ img{
 
 .hover{
 	opacity:.75;
+	font-style: italic;
+
 }
 
-.overlay:hover ~ .itemtext{
+/*.overlay:hover ~ .itemtext{
 	font-style: italic;
-}
+}*/
 
 /*.color:after {
 	background-color: white;
@@ -232,9 +234,13 @@ a:active{
 	font-weight: 300;
 }
 
+#tagsdiv{
+	margin-top: -5px;
+}
+
 #tags{
 	text-transform: uppercase;
-	font-size: .85em;
+	font-size: .65em;
 }
 
 #tags>li:first-child{

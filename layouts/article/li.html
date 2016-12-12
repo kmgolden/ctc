@@ -6,11 +6,13 @@
           <h4>{{ .Title }}</h4>
           <p>{{ .Description }}</p>
         </div>
-        <ul id="tags">
-          {{ range .Params.tags }}
-            <li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></li>
-          {{ end }}
-        </ul>
     </div><!--end div item-->
+    <div id="tagsdiv">
+    <ul id="tags">
+        {{ range .Params.tags }}
+          <li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></li>
+        {{ end }}
+      </ul>
+    </div>
   <!--</a>-->
 </div>
