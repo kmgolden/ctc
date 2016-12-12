@@ -20,7 +20,7 @@ body{
 h1{
 	/*text-transform: uppercase;*/
 	display: inline;
-	font-family: 'Playfair Display';
+	font-family: 'Playfair Display', serif;
 	font-weight: 400;
 }
 
@@ -227,7 +227,6 @@ a:active{
 	font-size: .8em;
 	margin-right: .5em;
 }
-
 
 .aboutme{
 	max-width: 71%;
