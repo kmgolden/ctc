@@ -378,8 +378,8 @@
 
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 <script src="http://corinnechin.video/js/3wrap.js"></script>
-
 <script>
 var times = 0;
 function doclick() {
@@ -387,39 +387,35 @@ function doclick() {
     location.hash = times;
 }
 function swapPhoto(href) {
-var urlbaby = window.location.hostname;
-var req = new XMLHttpRequest();
-req.open("GET",
-         urlbaby);
-  document.getElementById("hero").innerHTML = req.responseText;
-  setupHistoryClicks();
-  return true;
+  var urlbaby = window.location.hostname;
+  var req = new XMLHttpRequest();
+  req.open("GET",
+           urlbaby);
+    document.getElementById("hero").innerHTML = req.responseText;
+    setupHistoryClicks();
+    return true;
 }
-
 function addClicker(link) {
-document.addEventListener("onClick", function(e) {
-  if (swapPhoto(link.href)) {
-    history.pushState(null, null, link.href);
-    e.preventDefault();
-  }
-}, true);
+  document.addEventListener("onClick", function(e) {
+    if (swapPhoto(link.href)) {
+      history.pushState(null, null, link.href);
+      e.preventDefault();
+    }
+  }, true);
 }
-
 function setupHistoryClicks() {
 addClicker(document.getElementById("hero"));
 }
-
 window.onload = function() {
-setupHistoryClicks();
-window.setTimeout(function() {
-  window.addEventListener("popstate", function(e) {
-    swapPhoto(location.pathname);
-  }, false);
-}, 1);
+  setupHistoryClicks();
+  window.setTimeout(function() {
+    window.addEventListener("popstate", function(e) {
+      swapPhoto(location.pathname);
+    }, false);
+  }, 1);
 }
 </script>
 <script>
-
 
 
 
@@ -438,30 +434,38 @@ window.setTimeout(function() {
         var VideoWrapperB =
           '" frameborder="0"\ allowfullscreen></iframe>\
           </div>';
-
         if (isInternal === "true"){
           $("#hero").html(VideoWrapperA + GetVid + VideoWrapperB + '<div class="herotext"><h3>' + GetTitle + '</h3><caption>' + GetDescription + '</caption></div>');
           window.scrollTo(0,0);
-
-          
         } else {
           window.open(GetVid, "_blank");
         };
       });
 
-    $(window).scroll(function(){
-      if ($(window).scrollTop() >= 98 ) {
-        $('.heading').addClass('fixed-header');
-      } else {
-        $('.heading').removeClass('fixed-header fadeInDown');
-      }
-    });
+      if(matchMedia){
+        var mediaq = window.matchMedia("(min-width: 480px)");
+        mediaq.addListener(WidthChange);
+        WidthChange(mediaq);
+      };
+      function WidthChange(mediaq){
+        if (mediaq.matches){
+            $('.heading').removeClass('fixed-header')
+            $(window).scroll(function(){
+              if ($(window).scrollTop() >= 98 ) {
+                  $('.heading').addClass('fixed-header');
+                } else {
+                  $('.heading').removeClass('fixed-header fadeInDown');
+                }
+            });
+          } else {
+            $('.heading').addClass('fixed-header');
+          }
+        };
     
     $('.item').hover(function(){
       $(this).addClass('hover');
     }, function() {$(this).removeClass('hover');
       });
-
 </script>
 <script>
   $(function(){

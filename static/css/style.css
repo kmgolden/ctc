@@ -1,3 +1,14 @@
+@media only screen and (max-width: 480px) {
+	.container{
+		margin-top: 0;
+	}
+	.content{
+		margin-top: 92px !important;
+	}
+	.aboutme{
+		margin-top: 92px !important;
+	}
+}
 .container{
 	width: 95%;
 	margin: auto;
@@ -289,6 +300,7 @@ a:active{
 }
 
 @media (max-width: 580px){
+
 	.herofig{
 		display: none;
 	}
