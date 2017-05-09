@@ -19,6 +19,7 @@
         <link rel="stylesheet" href="{{ $.Site.BaseURL }}{{ . }}">
     {{ end }}
 		{{ .Hugo.Generator }}
+	{{ template "_internal/google_analytics.html" . }}
 </head>
 <body>
 	<div class="container">

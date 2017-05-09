@@ -9,6 +9,8 @@ layoutdir = "layouts"
 publishdir = "public"
 builddrafts = false
 cononifyurls = true
+googleAnalytics = "UA-98836806-1"
+
 
 [taxonomies]
   category = "categories"
