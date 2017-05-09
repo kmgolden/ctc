@@ -13,9 +13,10 @@
 	<link rel="stylesheet" type="text/css" href="http://corinnechin.video/css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Libre+Franklin:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
 	
 	
-		<meta name="generator" content="Hugo 0.17" />
+		<meta name="generator" content="Hugo 0.21-DEV" />
 </head>
 <body>
 	<div class="container">
@@ -32,28 +33,71 @@
 			</nav>
 		</div>
 
-<body>
+
     
-    <div class="contactme">
-        <p>206 464 2387<br>
-          <a href="mailto:cchin@seattletimes.com" target="_blank">cchin@seattletimes.com</a><br>
-        </p>
-        <p>
-          <a href="https://twitter.com/corinnechin" target="_blank"><span class="identifier"><i class="fa fa-twitter"></i></span>@CorinneChin</a><br>
-          <a href="https://instagram.com/corinnechinstagram" target="_blank"><span class="identifier"><i class="fa fa-instagram"></i></span>@corinnechinstagram</a><br>
-          <a href="https://linkedin.com/in/corinnechin" target="_blank"><span class="identifier"><i class="fa fa-linkedin"></i></span>corinnechin</a><br>
-        </p>
-    </div>
-<div class="footer">
+		<div class="aboutme"><p><div class="contactme">
+<a href="tel:206-464-2387">206 464 2387</a>
+<br>
+<a href='mail&#116;&#111;&#58;cch%69n&#64;s%65%6&#49;&#116;&#116;&#37;&#54;Ce%74%6&#57;mes&#46;com'>cc&#104;i&#110;&#64;seatt&#108;e&#116;i&#109;&#101;s&#46;&#99;om</a><br>
+<div class="socialcontact">
+<a href="https://twitter.com/corinnechin" target="_blank"><span class="identifier"><i class="fa fa-twitter" aria-hidden="true"></i></span>@CorinneChin</a><br>
+<a href="https://instagram.com/corinnechinstagram" target="_blank"><span class="identifier"><i class="fa fa-instagram" aria-hidden="true"></i></span>@corinnechinstagram</a><br>
+<a href="https://linkedin.com/in/corinnechin" target="_blank"><span class="identifier"><i class="fa fa-linkedin" aria-hidden="true"></i></span>corinnechin</a><br>
+</div>
+</div>
+</p></div>
+		<div class="footer">
   <ul>
     <li><a href="http://corinnechin.video/about">About</a></li>
     <li><a href="http://corinnechin.video/contact">Contact</a></li>
-    <li>&#169; Corinne Chin 2016.</li>
+    <li>&#169; Corinne Chin <script type="text/javascript">document.write(new Date().getFullYear());</script>.</li>
   </ul>
 </div>
+
+</div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-<script src="http://corinnechin.video/js/3wrap.js"></script>
+<script src="http://corinnechin.videojs/3wrap.js"></script>
+
 <script>
+var times = 0;
+function doclick() {
+    times++;
+    location.hash = times;
+}
+function swapPhoto(href) {
+var urlbaby = window.location.hostname;
+var req = new XMLHttpRequest();
+req.open("GET",
+         urlbaby);
+  document.getElementById("hero").innerHTML = req.responseText;
+  setupHistoryClicks();
+  return true;
+}
+
+function addClicker(link) {
+document.addEventListener("onClick", function(e) {
+  if (swapPhoto(link.href)) {
+    history.pushState(null, null, link.href);
+    e.preventDefault();
+  }
+}, true);
+}
+
+function setupHistoryClicks() {
+addClicker(document.getElementById("hero"));
+}
+
+window.onload = function() {
+setupHistoryClicks();
+window.setTimeout(function() {
+  window.addEventListener("popstate", function(e) {
+    swapPhoto(location.pathname);
+  }, false);
+}, 1);
+}
+</script>
+<script>
+
 
 
 
@@ -65,21 +109,24 @@
         var GetTitle = $(this).attr('data-title');
         var GetDescription = $(this).attr('data-desc');
         var GetVid = $(this).attr('data-vid');
-        var tags = $(this).attr('data-tags')
+
         var VideoWrapperA =
           '<div class="video-youtube">\
                 <iframe width="640" height="360" src="';
         var VideoWrapperB =
           '" frameborder="0"\ allowfullscreen></iframe>\
           </div>';
+
         if (isInternal === "true"){
           $("#hero").html(VideoWrapperA + GetVid + VideoWrapperB + '<div class="herotext"><h3>' + GetTitle + '</h3><caption>' + GetDescription + '</caption></div>');
           window.scrollTo(0,0);
+
           
         } else {
           window.open(GetVid, "_blank");
         };
       });
+
     $(window).scroll(function(){
       if ($(window).scrollTop() >= 98 ) {
         $('.heading').addClass('fixed-header');
@@ -92,8 +139,21 @@
       $(this).addClass('hover');
     }, function() {$(this).removeClass('hover');
       });
+
 </script>
-</div>
+<script>
+  $(function(){
+    var url = window.location.pathname,
+      urlRegExp = new RegExp(url == '/' ? window.location.origin + '/?$' : url.replace(/\/$/,'')); 
+      
+      $('nav ul li a').each(function(){
+          
+          if(urlRegExp.test(this.href.replace(/\/$/,''))){
+              $(this).addClass('active');
+          }
+      });
+    });
+</script>
 </body>
 </html>
 

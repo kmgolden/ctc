@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Corinne Chin | Video Journalist</title>
-    <link>http://corinnechin.video/tags/about/index.xml</link>
-    <description>Recent content on Corinne Chin | Video Journalist</description>
+    <title>About on Corinne Chin | Video Journalist</title>
+    <link>http://corinnechin.video/tags/about/</link>
+    <description>Recent content in About on Corinne Chin | Video Journalist</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://corinnechin.video/tags/about/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 09 Dec 2016 13:54:10 -0800</lastBuildDate>
+    
+	<atom:link href="http://corinnechin.video/tags/about/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
-      <title>About | Corinne Chin</title>
+      <title>About</title>
       <link>http://corinnechin.video/about/</link>
       <pubDate>Fri, 09 Dec 2016 13:54:10 -0800</pubDate>
       
       <guid>http://corinnechin.video/about/</guid>
-      <description>&lt;p&gt;Corinne Chin is a video editor at &lt;a href=&#34;http://www.seattletimes.com/author/corinne-chin/&#34; target=&#34;_blank&#34;&gt;The Seattle Times&lt;/a&gt;, where she works with a dynamic photo staff to film and edit short documentary films and compelling visual stories.&lt;/p&gt;
-
-&lt;p&gt;Before joining The Seattle Times in 2014, Corinne was a freelance video journalist reporting in Washington, DC; Nairobi, Kenya; São Paulo, Brazil; and more. A Chicago native, Corinne also taught fine art photography and documentary film to underprivileged teens on the city’s West and South Sides. Corinne earned a bachelor’s degree in magazine writing and a master’s in video journalism from Northwestern University, winning a Midwest Emmy for her master’s capstone, a documentary on an ex-gang member fighting gun violence in North Lawndale, Chicago. Her work has also been recognized by several other groups, including the National Press Photographers Association, the Illinois Press Photographers Association, the Society of Professional Journalists, and the GroundTruth Project. She has lent her skills as a coach for the Story Arc cinematic journalism workshop.&lt;/p&gt;
-
-&lt;p&gt;Corinne currently serves as a board member for the Seattle chapter of the Asian American Journalists Association.&lt;/p&gt;
-</description>
+      <description>Corinne Chin is a video editor at The Seattle Times, where she works with a dynamic photo staff to film and edit compelling documentary-style visual stories. Her 2016 body of work with Erika Schultz won second place in the individual portfolio category of the NPPA’s Best of Photojournalism awards.
+Before joining The Seattle Times in 2014, Corinne was a freelance video journalist reporting in Washington, DC; Nairobi, Kenya; São Paulo, Brazil; and more.</description>
     </item>
     
   </channel>
