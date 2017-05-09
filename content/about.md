@@ -13,7 +13,6 @@ Before joining The Seattle Times in 2014, Corinne was a freelance video journali
 
 Corinne regularly speaks on video journalism, diversity and inclusion to colleges and other public institutions in the Pacific Northwest. She has lent her skills as a coach for the Story Arc cinematic journalism workshop and as a judge for several journalism competitions. Corinne currently serves as a board member for the Seattle chapter of the Asian American Journalists Association.
 
-
 <a href="https://twitter.com/corinnechin" target="_blank"><span class="identifier"><i class="fa fa-twitter" aria-hidden="true"></i></span>@CorinneChin</a><br>
 <a href="https://instagram.com/corinnechinstagram" target="_blank"><span class="identifier"><i class="fa fa-instagram" aria-hidden="true"></i></span>@corinnechinstagram</a><br>
 <a href="https://linkedin.com/in/corinnechin" target="_blank"><span class="identifier"><i class="fa fa-linkedin" aria-hidden="true"></i></span>corinnechin</a><br>
