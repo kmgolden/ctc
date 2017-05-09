@@ -2,38 +2,92 @@
   <ul>
     <li><a href="{{ .Site.BaseURL }}/about">About</a></li>
     <li><a href="{{ .Site.BaseURL }}/contact">Contact</a></li>
-    <li>&#169; Corinne Chin 2016.</li>
+    <li>&#169; Corinne Chin <script type="text/javascript">document.write(new Date().getFullYear());</script>.</li>
   </ul>
 </div><!--end footer-->
+
+</div><!--end container-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-<script src="{{ .Site.BaseURL }}/js/3wrap.js"></script>
+<script src="{{ .Site.BaseURL }}js/3wrap.js"></script>
+<!--<script>
+
+window.onhashchange = function() {
+    if (location.hash.length > 0) {
+        times = parseInt(location.hash.replace('#',''),10);
+    } else {
+        times = 0;
+    }
+}
+</script>-->
+<script>
+var times = 0;
+function doclick() {
+    times++;
+    location.hash = times;
+}
+function swapPhoto(href) {
+var urlbaby = window.location.hostname;
+var req = new XMLHttpRequest();
+req.open("GET",
+         urlbaby);
+  document.getElementById("hero").innerHTML = req.responseText;
+  setupHistoryClicks();
+  return true;
+}
+
+function addClicker(link) {
+document.addEventListener("onClick", function(e) {
+  if (swapPhoto(link.href)) {
+    history.pushState(null, null, link.href);
+    e.preventDefault();
+  }
+}, true);
+}
+
+function setupHistoryClicks() {
+addClicker(document.getElementById("hero"));
+}
+
+window.onload = function() {
+setupHistoryClicks();
+window.setTimeout(function() {
+  window.addEventListener("popstate", function(e) {
+    swapPhoto(location.pathname);
+  }, false);
+}, 1);
+}
+</script>
 <script>
 // define what happens on click
 // define variable(s) to identify the content of what was clicked
 // if IsInternal = true, render the html in the hero element, leveraging Hugo
 // Otherwise, open link in new window
 // end javascript
+
   $(".item").click(function(){
         var isInternal = $(this).attr('data-internal');
         var GetSlug = $(this).prop('id');
         var GetTitle = $(this).attr('data-title');
         var GetDescription = $(this).attr('data-desc');
         var GetVid = $(this).attr('data-vid');
-        var tags = $(this).attr('data-tags')
+//        var tags = $("#tagsdiv ul li a:fir").attr('href')
         var VideoWrapperA =
           '<div class="video-youtube">\
                 <iframe width="640" height="360" src="';
         var VideoWrapperB =
           '" frameborder="0"\ allowfullscreen></iframe>\
           </div>';
+
         if (isInternal === "true"){
           $("#hero").html(VideoWrapperA + GetVid + VideoWrapperB + '<div class="herotext"><h3>' + GetTitle + '</h3><caption>' + GetDescription + '</caption></div>');
           window.scrollTo(0,0);
-          // console.log(tags);
+
+          // console.log(req);
         } else {
           window.open(GetVid, "_blank");
         };
       });
+
     $(window).scroll(function(){
       if ($(window).scrollTop() >= 98 ) {
         $('.heading').addClass('fixed-header');
@@ -46,7 +100,20 @@
       $(this).addClass('hover');
     }, function() {$(this).removeClass('hover');
       });
+
 </script>
-</div><!--end container-->
+<script>
+  $(function(){
+    var url = window.location.pathname,
+      urlRegExp = new RegExp(url == '/' ? window.location.origin + '/?$' : url.replace(/\/$/,'')); // create regexp to match current url pathname and remove trailing slash if present as it could collide with the link in navigation in case trailing slash wasn't present there
+      // now grab every link from the navigation
+      $('nav ul li a').each(function(){
+          // and test its normalized href against the url pathname regexp
+          if(urlRegExp.test(this.href.replace(/\/$/,''))){
+              $(this).addClass('active');
+          }
+      });
+    });
+</script>
 </body>
 </html>

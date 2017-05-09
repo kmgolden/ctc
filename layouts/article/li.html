@@ -1,6 +1,6 @@
 <div class="col span_1_of_3">
   <!--<a href="{{ .Permalink }}">-->
-    <div class="item" id="{{ .Slug }}" data-vid="{{ .Params.vid }}" data-desc="{{ .Description }}" data-title="{{ .Title }}" data-internal="{{ .Params.internal }}">
+    <div class="item" onclick="doclick();" id="{{ .Slug }}" data-vid="{{ .Params.vid }}" data-desc="{{ .Description }}" data-title="{{ .Title }}" data-internal="{{ .Params.internal }}">
         <div class="overlay color"><img src="{{ .Site.BaseURL }}/{{ .Params.image }}" alt="{{ .Title }}"></div>
         <div class="itemtext">
           <h4>{{ .Title }}</h4>

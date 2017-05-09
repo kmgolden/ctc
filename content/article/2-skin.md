@@ -2,7 +2,7 @@
 weight = "2"
 date = "2016-12-09T04:51:01-08:00"
 title = "Under Our Skin"
-description = "An interactive documentary exploring the words we use to talk about race."
+description = "An interactive documentary exploring the words we use to talk about race. Winner of a 2016 SND Silver Medal."
 image = "thumbs/2-under-our-skin.jpg"
 tags = [ "Editing", "Cinematography" ]
 internal = "false"

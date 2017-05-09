@@ -4,9 +4,22 @@
 	margin-top: 98px;
 }
 
+a.active{
+	font-weight: bold;
+}
+
+.socialcontact {
+	margin-top: .618em;
+}
+
+
+.socialcontact a{
+	text-decoration: none;
+}
+
 body{
  font-family: 'Libre Franklin', sans-serif;;
- letter-spacing: -.15px;
+ letter-spacing: -.1px;
 }
 
 .heading{
@@ -157,6 +170,7 @@ a:active{
 .herotext>h3{
 	margin-top: 1.382em;
 	text-transform: uppercase;
+	line-height: 1.3em;
 }
 
 .item:hover {
@@ -175,7 +189,8 @@ a:active{
 .itemtext>p{
 	margin-top: 0;
 	margin-bottom: .382em;
-	max-width: 89%
+	max-width: 89%;
+	line-height: 1.3em;
 }
 
 .itemtext:hover{
@@ -212,12 +227,8 @@ a:active{
 	font-weight: 100;
 }
 
-.contactme>p:last-child{
-	font-size: 1.32rem;
-	line-height: 1.32rem;
-}
 
-.contactme>p>a{
+.contactme>a{
 	text-decoration: none;
 }
 
@@ -231,6 +242,7 @@ a:active{
 .aboutme{
 	max-width: 71%;
 	font-weight: 300;
+	line-height: 1.3em;
 }
 
 #tagsdiv{
@@ -320,6 +332,9 @@ a:active{
 		font-size: 1.32em;
 		max-width: 100%;
 	}
+
+
+
 
 
 }

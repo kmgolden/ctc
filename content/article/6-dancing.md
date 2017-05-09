@@ -1,7 +1,7 @@
 +++
 date = "2016-12-09T17:15:56-08:00"
 title = "Dancing for social justice"
-weight = "6"
+weight = "9"
 description = "Northwest Tap Connection is a race and social justice-oriented studio."
 vid = "https://www.youtube.com/embed/klFEtZJwXz4"
 tags = [ "Editing", "Cinematography" ]

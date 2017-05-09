@@ -1,20 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <url>
-    <loc>http://corinnechin.video/</loc>
-    <lastmod>2016-12-09T15:22:52-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://corinnechin.video/contact/</loc>
-    <lastmod>2016-12-09T15:22:52-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://corinnechin.video/about/</loc>
-    <lastmod>2016-12-09T13:54:10-08:00</lastmod>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>http://corinnechin.video/article/1-cannabis/</loc>
@@ -29,6 +15,21 @@
   <url>
     <loc>http://corinnechin.video/article/3-sa/</loc>
     <lastmod>2016-12-09T04:51:07-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://corinnechin.video/article/3a-church/</loc>
+    <lastmod>2017-05-08T21:57:10-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://corinnechin.video/article/3b-activists/</loc>
+    <lastmod>2017-05-08T21:57:10-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://corinnechin.video/article/3c-homelessness/</loc>
+    <lastmod>2017-05-08T21:57:10-07:00</lastmod>
   </url>
   
   <url>
@@ -47,8 +48,8 @@
   </url>
   
   <url>
-    <loc>http://corinnechin.video/article/7-rawls/</loc>
-    <lastmod>2016-12-09T17:16:12-08:00</lastmod>
+    <loc>http://corinnechin.video/article/7-pickett/</loc>
+    <lastmod>2017-05-08T21:57:10-07:00</lastmod>
   </url>
   
   <url>
@@ -74,6 +75,69 @@
   <url>
     <loc>http://corinnechin.video/article/12-script/</loc>
     <lastmod>2016-12-09T17:17:09-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://corinnechin.video/contact/</loc>
+    <lastmod>2016-12-09T15:22:52-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://corinnechin.video/about/</loc>
+    <lastmod>2016-12-09T13:54:10-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://corinnechin.video/tags/about/</loc>
+    <lastmod>2016-12-09T13:54:10-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://corinnechin.video/article/</loc>
+    <lastmod>2016-12-09T04:24:27-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://corinnechin.video/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://corinnechin.video/tags/cinematography/</loc>
+    <lastmod>2016-12-09T04:24:27-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://corinnechin.video/tags/contact/</loc>
+    <lastmod>2016-12-09T13:54:10-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://corinnechin.video/</loc>
+    <lastmod>2016-12-09T04:24:27-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://corinnechin.video/tags/editing/</loc>
+    <lastmod>2016-12-09T04:24:27-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://corinnechin.video/tags/</loc>
+    <lastmod>2016-12-09T13:54:10-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://corinnechin.video/tags/video/</loc>
+    <lastmod>2016-12-09T13:54:10-08:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>
