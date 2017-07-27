@@ -1,7 +1,7 @@
 +++
 weight = "8"
 date = "2016-12-09T04:51:01-08:00"
-title = "I began to feel beautiful"
+title = "‘I began to feel beautiful’"
 description = "Bailadores de Bronce connect with history through Mexican folklórico dance. Filmed by Erika Schultz."
 image = "thumbs/bailadores.jpg"
 tags = [ "Editing" ]
