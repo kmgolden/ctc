@@ -3,77 +3,92 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://corinnechin.video/article/1-cannabis/</loc>
-    <lastmod>2016-12-09T04:24:27-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://corinnechin.video/article/2-skin/</loc>
+    <loc>http://corinnechin.video/article/01-skin/</loc>
     <lastmod>2016-12-09T04:51:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://corinnechin.video/article/3-sa/</loc>
+    <loc>http://corinnechin.video/article/02-cannabis/</loc>
+    <lastmod>2016-12-09T04:24:27-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://corinnechin.video/article/03-sa/</loc>
     <lastmod>2016-12-09T04:51:07-08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://corinnechin.video/article/3a-church/</loc>
+    <loc>http://corinnechin.video/article/04-church/</loc>
     <lastmod>2017-05-08T21:57:10-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://corinnechin.video/article/3b-activists/</loc>
+    <loc>http://corinnechin.video/article/05-activists/</loc>
     <lastmod>2017-05-08T21:57:10-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://corinnechin.video/article/3c-homelessness/</loc>
-    <lastmod>2017-05-08T21:57:10-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://corinnechin.video/article/4-refugee/</loc>
-    <lastmod>2016-12-09T17:15:39-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://corinnechin.video/article/5-pnw/</loc>
+    <loc>http://corinnechin.video/article/06-pnw/</loc>
     <lastmod>2016-12-09T17:15:47-08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://corinnechin.video/article/6-dancing/</loc>
-    <lastmod>2016-12-09T17:15:56-08:00</lastmod>
+    <loc>http://corinnechin.video/article/07-yayoi/</loc>
+    <lastmod>2016-12-09T04:51:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://corinnechin.video/article/7-pickett/</loc>
+    <loc>http://corinnechin.video/article/08-beautiful/</loc>
+    <lastmod>2016-12-09T04:51:01-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://corinnechin.video/article/09-12th/</loc>
+    <lastmod>2016-12-09T04:51:01-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://corinnechin.video/article/10-refugee/</loc>
+    <lastmod>2016-12-09T17:15:39-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://corinnechin.video/article/11-homelessness/</loc>
     <lastmod>2017-05-08T21:57:10-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://corinnechin.video/article/8-30days/</loc>
+    <loc>http://corinnechin.video/article/12-dancing/</loc>
+    <lastmod>2016-12-09T17:15:56-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://corinnechin.video/article/13-pickett/</loc>
+    <lastmod>2017-05-08T21:57:10-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://corinnechin.video/article/14-30days/</loc>
     <lastmod>2016-12-09T17:16:22-08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://corinnechin.video/article/9-loss/</loc>
+    <loc>http://corinnechin.video/article/15-loss/</loc>
     <lastmod>2016-12-09T17:16:35-08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://corinnechin.video/article/10-music/</loc>
+    <loc>http://corinnechin.video/article/16-music/</loc>
     <lastmod>2016-12-09T17:16:52-08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://corinnechin.video/article/11-copa/</loc>
+    <loc>http://corinnechin.video/article/17-copa/</loc>
     <lastmod>2016-12-09T17:17:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://corinnechin.video/article/12-script/</loc>
+    <loc>http://corinnechin.video/article/18-script/</loc>
     <lastmod>2016-12-09T17:17:09-08:00</lastmod>
   </url>
   
@@ -95,7 +110,7 @@
   
   <url>
     <loc>http://corinnechin.video/article/</loc>
-    <lastmod>2016-12-09T04:24:27-08:00</lastmod>
+    <lastmod>2016-12-09T04:51:01-08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -106,7 +121,7 @@
   
   <url>
     <loc>http://corinnechin.video/tags/cinematography/</loc>
-    <lastmod>2016-12-09T04:24:27-08:00</lastmod>
+    <lastmod>2016-12-09T04:51:01-08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -118,13 +133,13 @@
   
   <url>
     <loc>http://corinnechin.video/</loc>
-    <lastmod>2016-12-09T04:24:27-08:00</lastmod>
+    <lastmod>2016-12-09T04:51:01-08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://corinnechin.video/tags/editing/</loc>
-    <lastmod>2016-12-09T04:24:27-08:00</lastmod>
+    <lastmod>2016-12-09T04:51:01-08:00</lastmod>
     <priority>0</priority>
   </url>
   

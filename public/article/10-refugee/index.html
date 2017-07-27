@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Corinne Chin | Video Journalist</title>
+	<meta charset="utf-8" />
+	<script src="https://use.fontawesome.com/4b47ac1b9b.js"></script>
+	<meta name="description" content="Corinne Chin is a video editor at The Seattle Times, where she works with a dynamic photo staff to film and edit short documentary films and compelling visual stories." />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+	<link rel="icon" href="http://corinnechin.video/icon/favicon.png" type="image/x-icon" />
+	<link rel="apple-touch-icon-precomposed" href="http://corinnechin.video/images/icons/" />
+	<link rel="stylesheet" type="text/css" href="http://corinnechin.video/css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="http://corinnechin.video/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Libre+Franklin:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+	
+	
+		<meta name="generator" content="Hugo 0.21-DEV" />
+	
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-98836806-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+</head>
+<body>
+	<div class="container">
+		<div class="heading">
+			<a href="http://corinnechin.video">
+				<h1>Corinne Chin</h1>
+				<h2>Video Journalist</h2>
+			</a>
+			<nav>
+				<ul>
+					<li><a href="http://corinnechin.video/about">About</a></li>
+					<li><a href="http://corinnechin.video/contact">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+
+
+    
+		<div class="aboutme"><p><p>A family of Iraqi refugees struggles with old trauma in their new home in Washington state.</p>
+</p></div>
+		<div class="footer">
+  <ul>
+    <li><a href="http://corinnechin.video/about">About</a></li>
+    <li><a href="http://corinnechin.video/contact">Contact</a></li>
+    <li>&#169; Corinne Chin <script type="text/javascript">document.write(new Date().getFullYear());</script>.</li>
+  </ul>
+</div>
+
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+<script src="http://corinnechin.video/js/3wrap.js"></script>
+<script>
+var times = 0;
+function doclick() {
+    times++;
+    location.hash = times;
+}
+function swapPhoto(href) {
+  var urlbaby = window.location.hostname;
+  var req = new XMLHttpRequest();
+  req.open("GET",
+           urlbaby);
+    document.getElementById("hero").innerHTML = req.responseText;
+    setupHistoryClicks();
+    return true;
+}
+function addClicker(link) {
+  document.addEventListener("onClick", function(e) {
+    if (swapPhoto(link.href)) {
+      history.pushState(null, null, link.href);
+      e.preventDefault();
+    }
+  }, true);
+}
+function setupHistoryClicks() {
+addClicker(document.getElementById("hero"));
+}
+window.onload = function() {
+  setupHistoryClicks();
+  window.setTimeout(function() {
+    window.addEventListener("popstate", function(e) {
+      swapPhoto(location.pathname);
+    }, false);
+  }, 1);
+}
+</script>
+<script>
+
+
+
+
+
+  $(".item").click(function(){
+        var isInternal = $(this).attr('data-internal');
+        var GetSlug = $(this).prop('id');
+        var GetTitle = $(this).attr('data-title');
+        var GetDescription = $(this).attr('data-desc');
+        var GetVid = $(this).attr('data-vid');
+
+        var VideoWrapperA =
+          '<div class="video-youtube">\
+                <iframe width="640" height="360" src="';
+        var VideoWrapperB =
+          '" frameborder="0"\ allowfullscreen></iframe>\
+          </div>';
+        if (isInternal === "true"){
+          $("#hero").html(VideoWrapperA + GetVid + VideoWrapperB + '<div class="herotext"><h3>' + GetTitle + '</h3><caption>' + GetDescription + '</caption></div>');
+          window.scrollTo(0,0);
+        } else {
+          window.open(GetVid, "_blank");
+        };
+      });
+
+      if(matchMedia){
+        var mediaq = window.matchMedia("(min-width: 480px)");
+        mediaq.addListener(WidthChange);
+        WidthChange(mediaq);
+      };
+      function WidthChange(mediaq){
+        if (mediaq.matches){
+            $('.heading').removeClass('fixed-header')
+            $(window).scroll(function(){
+              if ($(window).scrollTop() >= 98 ) {
+                  $('.heading').addClass('fixed-header');
+                } else {
+                  $('.heading').removeClass('fixed-header fadeInDown');
+                }
+            });
+          } else {
+            $('.heading').addClass('fixed-header');
+          }
+        };
+    
+    $('.item').hover(function(){
+      $(this).addClass('hover');
+    }, function() {$(this).removeClass('hover');
+      });
+</script>
+<script>
+  $(function(){
+    var url = window.location.pathname,
+      urlRegExp = new RegExp(url == '/' ? window.location.origin + '/?$' : url.replace(/\/$/,'')); 
+      
+      $('nav ul li a').each(function(){
+          
+          if(urlRegExp.test(this.href.replace(/\/$/,''))){
+              $(this).addClass('active');
+          }
+      });
+    });
+</script>
+</body>
+</html>
+
