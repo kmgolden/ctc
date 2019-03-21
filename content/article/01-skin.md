@@ -2,7 +2,7 @@
 weight = "1"
 date = "2016-12-09T04:51:01-08:00"
 title = "Under Our Skin"
-description = "An interactive documentary exploring the words we use to talk about race. Winner: 2016 SND Silver; 2017 RTDNA Kaleidoscope Award."
+description = "An interactive documentary exploring the words we use to talk about race. Winner: ONA Online Journalism Award; RTDNA Kaleidoscope Award."
 image = "thumbs/2-under-our-skin.jpg"
 tags = [ "Editing", "Cinematography" ]
 internal = "false"
