@@ -6,7 +6,7 @@ image = "/thumbs/exclusionact.jpg"
 internal = "Yes"
 tags = ["Editing", "Cinematography"]
 title = "Seattle's Chinese Exclusion Act Files"
-vid = ""
+vid = "https://www.youtube.com/embed/KhFJALBj8_M"
 weight = 3
 
 +++
