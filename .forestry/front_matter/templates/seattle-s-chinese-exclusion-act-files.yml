@@ -26,3 +26,5 @@ fields:
 - type: text
   name: internal
   label: internal
+pages:
+- content/article/seattle-s-chinese-exclusion-act-files.md
