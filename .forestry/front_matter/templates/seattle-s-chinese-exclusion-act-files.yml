@@ -27,4 +27,5 @@ fields:
   name: internal
   label: internal
 pages:
+- content/article/thirty-two-fouettés.md
 - content/article/seattle-s-chinese-exclusion-act-files.md
