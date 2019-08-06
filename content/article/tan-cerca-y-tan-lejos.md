@@ -1,7 +1,7 @@
 +++
 date = "2019-08-06T07:00:00+00:00"
 description = "Fleeing gangs in Honduras, Daysi and her 12-year-old son Jimmy – a U.S. citizen by birth – migrated to the border city of Tijuana, Mexico."
-image = "/thumbs/_AsylumFinals_ejs_018-opt.jpg"
+image = "/thumbs/AsylumFinalsEJS018opt.jpg"
 internal = "true"
 tags = ["Editing", "Cinematography"]
 title = "Tan Cerca y Tan Lejos"
