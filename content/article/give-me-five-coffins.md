@@ -1,0 +1,12 @@
++++
+date = "2019-08-06T07:00:00+00:00"
+description = "Juan Carlos and his family faced a difficult choice: should they apply for asylum in the U.S. – and risk deportation back to El Salvador?"
+draft = true
+image = "/thumbs/juan carlos.jpg"
+internal = "true"
+tags = ["Editing", "Cinematography"]
+title = "Give me five coffins"
+vid = "https://www.youtube.com/embed/P_Aine-z3o0"
+weight = 2
+
++++
