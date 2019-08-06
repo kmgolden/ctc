@@ -5,7 +5,7 @@ draft = true
 image = "/thumbs/exclusionact.jpg"
 internal = "Yes"
 tags = ["Editing", "Cinematography"]
-title = "Seattle's Chinese Exclusion Act Files"
+title = "Seattle’s Chinese Exclusion Act Files"
 vid = "https://www.youtube.com/embed/KhFJALBj8_M"
 weight = 3
 
