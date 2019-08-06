@@ -27,5 +27,6 @@ fields:
   name: internal
   label: internal
 pages:
+- content/article/her-story-our-story.md
 - content/article/thirty-two-fouettés.md
 - content/article/seattle-s-chinese-exclusion-act-files.md
