@@ -1,7 +1,6 @@
 +++
 date = 2016-12-09T12:51:01Z
 description = "Through photography, film and poetry, immerse yourself in the stories of the resilient women of Juárez, Mexico as they fight against femicide."
-draft = true
 image = "thumbs/disappearingdaughters.jpg"
 internal = false
 tags = ["Editing", "Cinematography", "Writing"]

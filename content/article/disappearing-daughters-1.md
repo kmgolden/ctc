@@ -1,7 +1,6 @@
 +++
 date = 2016-12-09T12:51:01Z
 description = "For asylum-seekers, dreams of a new life in the U.S. stall in Tijuana."
-draft = true
 image = "thumbs/beyondtheborder.jpg"
 internal = false
 tags = ["Editing", "Cinematography"]
