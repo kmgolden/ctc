@@ -1,7 +1,6 @@
 +++
 date = 2016-12-09T12:51:01Z
 description = "Ernestina Enríquez Fierro lost her youngest daughter, 15-year-old Adriana, to femicide in 2008. She wants the world to know her story."
-draft = true
 image = "/thumbs/nojustice.jpg"
 internal = "true"
 tags = ["Editing", "Cinematography"]
