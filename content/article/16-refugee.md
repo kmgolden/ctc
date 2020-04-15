@@ -1,13 +1,12 @@
 +++
-weight = "16"
-date = "2016-12-09T17:15:39-08:00"
-title = "Unsettled"
+date = 2016-12-10T01:15:39Z
 description = "A family of Iraqi refugees struggles with old trauma in their new home in Washington state."
 image = "thumbs/4-unsettled.jpg"
-vid = "https://www.youtube.com/embed/M-JlZWaYjSY"
-tags = [ "Editing", "Cinematography" ]
 internal = "true"
+tags = ["Editing", "Cinematography"]
+title = "Unsettled"
+vid = "https://www.youtube.com/embed/M-JlZWaYjSY"
+weight = "19"
 
 +++
-
 A family of Iraqi refugees struggles with old trauma in their new home in Washington state.
