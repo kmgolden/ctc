@@ -1,7 +1,6 @@
 +++
 date = 2016-12-09T12:51:01Z
 description = "Desmond Jackson was killed in 2012. His great aunt wants justice. Filmed by Bettina Hansen."
-draft = true
 image = "thumbs/grief.jpg"
 internal = "true"
 tags = ["Editing"]
