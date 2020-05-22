@@ -23,7 +23,3 @@ Corinne Chin is a Senior Video Journalist at The Seattle Times – winner of t
 <p><span style="font-weight: bold">The Seventh Wave</span><br>
 <a href="http://theseventhwave.co/on-safe-spaces-engagement-and-redefining-what-we-know/
 " target="_blank">On Safe Spaces, Engagement, and Redefining What We Know</a></p>
-
-<p><a href="https://twitter.com/corinnechin" target="_blank"><span class="identifier"><i class="fa fa-twitter" aria-hidden="true"></i></span>@CorinneChin</a><br>
-<a href="https://instagram.com/corinnechinstagram" target="_blank"><span class="identifier"><i class="fa fa-instagram" aria-hidden="true"></i></span>@corinnechinstagram</a><br>
-<a href="https://linkedin.com/in/corinnechin" target="_blank"><span class="identifier"><i class="fa fa-linkedin" aria-hidden="true"></i></span>corinnechin</a><br></p>
