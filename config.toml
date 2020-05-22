@@ -20,8 +20,3 @@ googleAnalytics = "UA-98836806-1"
   description = "Corinne Chin is a video journalist at The Seattle Times."
   author = "Corinne Chin"
   favicon = "favicon.png"
-
-[params.social]
-  twitter = "https://twitter.com/corinnechin"
-  instagram = "https://instagram.com/corinnechinstagram"
-  linkedin = "https://linkedin.com/in/corinnechin"
