@@ -1,120 +1,165 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://corinnechin.video/article/we-all-grieve-in-different-ways/</loc>
+    <lastmod>2016-12-09T12:51:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://corinnechin.video/article/disappearing-daughters/</loc>
+    <lastmod>2016-12-09T12:51:01+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://corinnechin.video/article/01-skin/</loc>
-    <lastmod>2016-12-09T04:51:01-08:00</lastmod>
+    <lastmod>2016-12-09T12:51:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://corinnechin.video/article/disappearing-daughters-1/</loc>
+    <lastmod>2016-12-09T12:51:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://corinnechin.video/article/tan-cerca-y-tan-lejos/</loc>
+    <lastmod>2019-08-06T07:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://corinnechin.video/article/give-me-five-coffins/</loc>
+    <lastmod>2019-08-06T07:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://corinnechin.video/article/02-leave/</loc>
-    <lastmod>2018-07-31T21:02:03-07:00</lastmod>
+    <lastmod>2018-08-01T04:02:03+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://corinnechin.video/article/03-powerlifters/</loc>
-    <lastmod>2018-10-30T21:03:09-07:00</lastmod>
+    <lastmod>2018-10-31T04:03:09+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://corinnechin.video/article/04-dancesaves/</loc>
-    <lastmod>2018-07-18T23:03:05-07:00</lastmod>
+    <loc>http://corinnechin.video/article/seattle-s-chinese-exclusion-act-files/</loc>
+    <lastmod>2019-06-21T04:41:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://corinnechin.video/article/seattle-s-poem/</loc>
+    <lastmod>2020-04-06T07:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://corinnechin.video/article/05-grieve/</loc>
-    <lastmod>2016-12-09T04:51:01-08:00</lastmod>
+    <lastmod>2016-12-09T12:51:01+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://corinnechin.video/article/06-seattlepoem/</loc>
-    <lastmod>2016-12-09T04:51:01-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://corinnechin.video/article/07-womenmarching/</loc>
-    <lastmod>2018-07-18T23:03:05-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://corinnechin.video/article/08-cannabis/</loc>
-    <lastmod>2016-12-09T04:24:27-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://corinnechin.video/article/09-artifactsofinjustice/</loc>
-    <lastmod>2018-07-18T23:03:05-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://corinnechin.video/article/10-swanlake/</loc>
-    <lastmod>2018-07-18T23:03:05-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://corinnechin.video/article/11-pnw/</loc>
-    <lastmod>2016-12-09T17:15:47-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://corinnechin.video/article/12-church/</loc>
-    <lastmod>2017-05-08T21:57:10-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://corinnechin.video/article/13-beautiful/</loc>
-    <lastmod>2016-12-09T04:51:01-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://corinnechin.video/article/14-yayoi/</loc>
-    <lastmod>2016-12-09T04:51:01-08:00</lastmod>
+    <loc>http://corinnechin.video/article/her-story-our-story/</loc>
+    <lastmod>2019-08-06T07:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://corinnechin.video/article/15-sa/</loc>
-    <lastmod>2016-12-09T04:51:07-08:00</lastmod>
+    <lastmod>2016-12-09T12:51:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://corinnechin.video/article/08-cannabis/</loc>
+    <lastmod>2016-12-09T12:24:27+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://corinnechin.video/article/09-artifactsofinjustice/</loc>
+    <lastmod>2018-07-19T06:03:05+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://corinnechin.video/article/thirty-two-fouett%C3%A9s/</loc>
+    <lastmod>2019-08-06T07:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://corinnechin.video/article/11-pnw/</loc>
+    <lastmod>2016-12-10T01:15:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://corinnechin.video/article/12-church/</loc>
+    <lastmod>2017-05-09T04:57:10+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://corinnechin.video/article/16-refugee/</loc>
-    <lastmod>2016-12-09T17:15:39-08:00</lastmod>
+    <lastmod>2016-12-10T01:15:39+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://corinnechin.video/article/17-pickett/</loc>
-    <lastmod>2017-05-08T21:57:10-07:00</lastmod>
+    <loc>http://corinnechin.video/article/14-yayoi/</loc>
+    <lastmod>2016-12-09T12:51:01+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://corinnechin.video/article/18-12th/</loc>
-    <lastmod>2016-12-09T04:51:01-08:00</lastmod>
+    <lastmod>2016-12-09T12:51:01+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://corinnechin.video/article/19-30days/</loc>
-    <lastmod>2016-12-09T17:16:22-08:00</lastmod>
+    <lastmod>2016-12-10T01:16:22+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://corinnechin.video/article/20-copa/</loc>
-    <lastmod>2016-12-09T17:17:01-08:00</lastmod>
+    <lastmod>2016-12-10T01:17:01+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://corinnechin.video/article/21-script/</loc>
-    <lastmod>2016-12-09T17:17:09-08:00</lastmod>
+    <lastmod>2016-12-10T01:17:09+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://corinnechin.video/contact/</loc>
-    <lastmod>2016-12-09T15:22:52-08:00</lastmod>
+    <loc>http://corinnechin.video/article/</loc>
+    <lastmod>2020-04-06T07:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://corinnechin.video/tags/cinematography/</loc>
+    <lastmod>2020-04-06T07:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://corinnechin.video/</loc>
+    <lastmod>2020-04-06T07:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://corinnechin.video/tags/editing/</loc>
+    <lastmod>2020-04-06T07:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://corinnechin.video/tags/</loc>
+    <lastmod>2020-04-06T07:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://corinnechin.video/about/</loc>
-    <lastmod>2016-12-09T13:54:10-08:00</lastmod>
+    <lastmod>2016-12-09T21:54:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://corinnechin.video/tags/about/</loc>
+    <lastmod>2016-12-09T21:54:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://corinnechin.video/tags/contact/</loc>
+    <lastmod>2016-12-09T21:54:10+00:00</lastmod>
   </url>
   
   <url>
@@ -123,56 +168,17 @@
   </url>
   
   <url>
-    <loc>http://corinnechin.video/tags/about/</loc>
-    <lastmod>2016-12-09T13:54:10-08:00</lastmod>
-    <priority>0</priority>
+    <loc>http://corinnechin.video/tags/video/</loc>
+    <lastmod>2016-12-09T21:54:10+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://corinnechin.video/article/</loc>
-    <lastmod>2016-12-09T04:51:01-08:00</lastmod>
-    <priority>0</priority>
+    <loc>http://corinnechin.video/tags/writing/</loc>
+    <lastmod>2016-12-09T12:51:01+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://corinnechin.video/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://corinnechin.video/tags/cinematography/</loc>
-    <lastmod>2016-12-09T04:51:01-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://corinnechin.video/tags/contact/</loc>
-    <lastmod>2016-12-09T13:54:10-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://corinnechin.video/</loc>
-    <lastmod>2016-12-09T04:51:01-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://corinnechin.video/tags/editing/</loc>
-    <lastmod>2016-12-09T04:51:01-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://corinnechin.video/tags/</loc>
-    <lastmod>2016-12-09T13:54:10-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://corinnechin.video/tags/video/</loc>
-    <lastmod>2016-12-09T13:54:10-08:00</lastmod>
-    <priority>0</priority>
   </url>
   
 </urlset>
