@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cinematography on Corinne Chin | Video Journalist</title>
@@ -6,10 +6,19 @@
     <description>Recent content in Cinematography on Corinne Chin | Video Journalist</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Apr 2020 07:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Dec 2016 12:51:01 +0000</lastBuildDate>
     
 	<atom:link href="http://corinnechin.video/tags/cinematography/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Beyond the Border</title>
+      <link>http://corinnechin.video/article/disappearing-daughters-1/</link>
+      <pubDate>Fri, 09 Dec 2016 12:51:01 +0000</pubDate>
+      
+      <guid>http://corinnechin.video/article/disappearing-daughters-1/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut imperdiet dui, nec malesuada turpis. Nullam nec neque vitae leo consequat aliquet vel nec nulla. Donec non maximus leo, quis fermentum nibh. Donec scelerisque, mauris mollis hendrerit dignissim, justo urna feugiat ante, ut ullamcorper leo nulla vitae eros. Morbi vitae semper ligula, eu suscipit nunc. Mauris sed convallis odio. Aliquam non lacus nibh. Aliquam elementum id lectus non rutrum.</description>
+    </item>
     
     <item>
       <title>Disappearing Daughters</title>
@@ -17,15 +26,6 @@
       <pubDate>Fri, 09 Dec 2016 12:51:01 +0000</pubDate>
       
       <guid>http://corinnechin.video/article/we-all-grieve-in-different-ways/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut imperdiet dui, nec malesuada turpis. Nullam nec neque vitae leo consequat aliquet vel nec nulla. Donec non maximus leo, quis fermentum nibh. Donec scelerisque, mauris mollis hendrerit dignissim, justo urna feugiat ante, ut ullamcorper leo nulla vitae eros. Morbi vitae semper ligula, eu suscipit nunc. Mauris sed convallis odio. Aliquam non lacus nibh. Aliquam elementum id lectus non rutrum.</description>
-    </item>
-    
-    <item>
-      <title>‘There&#39;s no justice’</title>
-      <link>http://corinnechin.video/article/disappearing-daughters/</link>
-      <pubDate>Fri, 09 Dec 2016 12:51:01 +0000</pubDate>
-      
-      <guid>http://corinnechin.video/article/disappearing-daughters/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut imperdiet dui, nec malesuada turpis. Nullam nec neque vitae leo consequat aliquet vel nec nulla. Donec non maximus leo, quis fermentum nibh. Donec scelerisque, mauris mollis hendrerit dignissim, justo urna feugiat ante, ut ullamcorper leo nulla vitae eros. Morbi vitae semper ligula, eu suscipit nunc. Mauris sed convallis odio. Aliquam non lacus nibh. Aliquam elementum id lectus non rutrum.</description>
     </item>
     
@@ -39,21 +39,12 @@
     </item>
     
     <item>
-      <title>Beyond the Border</title>
-      <link>http://corinnechin.video/article/disappearing-daughters-1/</link>
+      <title>‘There&#39;s no justice’</title>
+      <link>http://corinnechin.video/article/disappearing-daughters/</link>
       <pubDate>Fri, 09 Dec 2016 12:51:01 +0000</pubDate>
       
-      <guid>http://corinnechin.video/article/disappearing-daughters-1/</guid>
+      <guid>http://corinnechin.video/article/disappearing-daughters/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut imperdiet dui, nec malesuada turpis. Nullam nec neque vitae leo consequat aliquet vel nec nulla. Donec non maximus leo, quis fermentum nibh. Donec scelerisque, mauris mollis hendrerit dignissim, justo urna feugiat ante, ut ullamcorper leo nulla vitae eros. Morbi vitae semper ligula, eu suscipit nunc. Mauris sed convallis odio. Aliquam non lacus nibh. Aliquam elementum id lectus non rutrum.</description>
-    </item>
-    
-    <item>
-      <title>Tan Cerca y Tan Lejos</title>
-      <link>http://corinnechin.video/article/tan-cerca-y-tan-lejos/</link>
-      <pubDate>Tue, 06 Aug 2019 07:00:00 +0000</pubDate>
-      
-      <guid>http://corinnechin.video/article/tan-cerca-y-tan-lejos/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -62,6 +53,15 @@
       <pubDate>Tue, 06 Aug 2019 07:00:00 +0000</pubDate>
       
       <guid>http://corinnechin.video/article/give-me-five-coffins/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tan Cerca y Tan Lejos</title>
+      <link>http://corinnechin.video/article/tan-cerca-y-tan-lejos/</link>
+      <pubDate>Tue, 06 Aug 2019 07:00:00 +0000</pubDate>
+      
+      <guid>http://corinnechin.video/article/tan-cerca-y-tan-lejos/</guid>
       <description></description>
     </item>
     
@@ -156,21 +156,21 @@
     </item>
     
     <item>
-      <title>Yayoi Kusama in 360 degrees</title>
-      <link>http://corinnechin.video/article/14-yayoi/</link>
-      <pubDate>Fri, 09 Dec 2016 12:51:01 +0000</pubDate>
-      
-      <guid>http://corinnechin.video/article/14-yayoi/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut imperdiet dui, nec malesuada turpis. Nullam nec neque vitae leo consequat aliquet vel nec nulla. Donec non maximus leo, quis fermentum nibh. Donec scelerisque, mauris mollis hendrerit dignissim, justo urna feugiat ante, ut ullamcorper leo nulla vitae eros. Morbi vitae semper ligula, eu suscipit nunc. Mauris sed convallis odio. Aliquam non lacus nibh. Aliquam elementum id lectus non rutrum. Test</description>
-    </item>
-    
-    <item>
       <title>The 12th building</title>
       <link>http://corinnechin.video/article/18-12th/</link>
       <pubDate>Fri, 09 Dec 2016 12:51:01 +0000</pubDate>
       
       <guid>http://corinnechin.video/article/18-12th/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut imperdiet dui, nec malesuada turpis. Nullam nec neque vitae leo consequat aliquet vel nec nulla. Donec non maximus leo, quis fermentum nibh. Donec scelerisque, mauris mollis hendrerit dignissim, justo urna feugiat ante, ut ullamcorper leo nulla vitae eros. Morbi vitae semper ligula, eu suscipit nunc. Mauris sed convallis odio. Aliquam non lacus nibh. Aliquam elementum id lectus non rutrum.</description>
+    </item>
+    
+    <item>
+      <title>Yayoi Kusama in 360 degrees</title>
+      <link>http://corinnechin.video/article/14-yayoi/</link>
+      <pubDate>Fri, 09 Dec 2016 12:51:01 +0000</pubDate>
+      
+      <guid>http://corinnechin.video/article/14-yayoi/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut imperdiet dui, nec malesuada turpis. Nullam nec neque vitae leo consequat aliquet vel nec nulla. Donec non maximus leo, quis fermentum nibh. Donec scelerisque, mauris mollis hendrerit dignissim, justo urna feugiat ante, ut ullamcorper leo nulla vitae eros. Morbi vitae semper ligula, eu suscipit nunc. Mauris sed convallis odio. Aliquam non lacus nibh. Aliquam elementum id lectus non rutrum. Test</description>
     </item>
     
     <item>
