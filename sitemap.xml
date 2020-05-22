@@ -133,11 +133,6 @@
   </url>
   
   <url>
-    <loc>http://corinnechin.video/</loc>
-    <lastmod>2020-04-06T07:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://corinnechin.video/tags/editing/</loc>
     <lastmod>2020-04-06T07:00:00+00:00</lastmod>
   </url>
@@ -159,6 +154,11 @@
   
   <url>
     <loc>http://corinnechin.video/tags/contact/</loc>
+    <lastmod>2016-12-09T21:54:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://corinnechin.video/</loc>
     <lastmod>2016-12-09T21:54:10+00:00</lastmod>
   </url>
   
