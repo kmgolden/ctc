@@ -27,6 +27,7 @@ fields:
   name: internal
   label: internal
 pages:
+- content/article/cultivating-resilience-in-a-pandemic.md
 - content/article/disappearing-daughters.md
 - content/article/give-me-five-coffins.md
 - content/article/her-story-our-story.md
