@@ -6,7 +6,7 @@ internal = "true"
 tags = ["Editing", "Cinematography"]
 title = "Contra Copa"
 vid = "https://player.vimeo.com/video/96212333?title=0&byline=0&portrait=0"
-weight = "23"
+weight = "72"
 
 +++
 Disaffected youth take to the streets before Brazil's 2014 World Cup.

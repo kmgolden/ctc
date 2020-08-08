@@ -6,6 +6,6 @@ internal = "true"
 tags = ["Editing", "Cinematography"]
 title = "Flipping the Script"
 vid = "https://player.vimeo.com/video/78692847?title=0&byline=0&portrait=0"
-weight = "24"
+weight = "73"
 
 +++
