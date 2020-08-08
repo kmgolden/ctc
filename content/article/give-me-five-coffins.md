@@ -6,6 +6,6 @@ internal = "true"
 tags = ["Editing", "Cinematography"]
 title = "Give me five coffins"
 vid = "https://www.youtube.com/embed/P_Aine-z3o0"
-weight = "6"
+weight = "32"
 
 +++
