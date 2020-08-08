@@ -1,6 +1,7 @@
 +++
 date = 2019-08-06T07:00:00Z
 description = "In Act III of ‘Swan Lake,’ a ballerina must perform 32 consecutive fouetté turns."
+draft = true
 image = "/thumbs/swanlake.jpg"
 internal = "true"
 tags = ["Editing", "Cinematography"]
