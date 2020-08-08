@@ -6,7 +6,7 @@ image = "/thumbs/20200704_uprising_standoff_text2.jpg"
 internal = ""
 tags = ["editing", "cinematography"]
 title = "The Uprising"
-vid = "https://www.youtube.com/watch?v=SgBZtG2boiQ"
-weight = ""
+vid = "https://www.youtube.com/embed/SgBZtG2boiQ"
+weight = "12"
 
 +++
