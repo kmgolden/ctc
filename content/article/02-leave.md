@@ -4,7 +4,7 @@ description = "After 35 years in the U.S., Juan Lopez was deported. His family f
 image = "thumbs/lopez.jpg"
 internal = "true"
 tags = ["Editing", "Cinematography"]
-title = "‘It’s going to be hard to leave’"
+title = "When Dad is deported"
 vid = "https://www.youtube.com/embed/W9UzO0gLe7Q"
 weight = "7"
 
