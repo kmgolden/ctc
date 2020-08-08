@@ -1,6 +1,7 @@
 +++
 date = 2017-05-09T04:57:10Z
 description = "“You wear the hat,” Deborah Riley says. “The hat doesn't wear you.”"
+draft = true
 image = "thumbs/hats.jpg"
 internal = "true"
 tags = ["Editing", "Cinematography"]
