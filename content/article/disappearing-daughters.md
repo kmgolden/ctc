@@ -4,7 +4,7 @@ description = "Ernestina Enríquez Fierro lost her youngest daughter, 15-year-ol
 image = "/thumbs/nojustice.jpg"
 internal = "true"
 tags = ["Editing", "Cinematography"]
-title = "‘There's no justice’"
+title = "Is being a woman a crime?"
 vid = "https://www.youtube.com/embed/imD7wjXMIAY"
 weight = "2"
 
