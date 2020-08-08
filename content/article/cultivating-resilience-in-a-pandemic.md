@@ -6,7 +6,7 @@ image = "/thumbs/hmong-flower-farmers_d2i2586.jpg"
 internal = ""
 tags = ["cinematography", "editing"]
 title = "Cultivating resilience in a pandemic"
-vid = "https://www.youtube.com/watch?v=of2qvglkpGs"
+vid = "https://www.youtube.com/embed/of2qvglkpGs"
 weight = ""
 
 +++
