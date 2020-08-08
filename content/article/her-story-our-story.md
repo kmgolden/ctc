@@ -6,6 +6,6 @@ internal = "False"
 tags = ["Editing", "Cinematography"]
 title = "Her Story: Our Story"
 vid = "https://projects.seattletimes.com/2019/her-story-our-story/"
-weight = "12"
+weight = "41"
 
 +++
