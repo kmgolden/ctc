@@ -1,12 +1,18 @@
-    <div class="col span_1_of_3">
-      <a href="{{ .Permalink }}">
-        <figure class="item">
-          <div class="overlay color"><img src="{{ .Params.image }}" alt="{{ .Title }}"></div>
-          <div class="itemtext">
-            <h4>{{ .Title }}</h4>
-            <caption>{{ .Description }}</caption>
-            <div>{{ .Params.tags }}</div>
-          </div>
-        </figure>
-      </a>
+<div class="col span_1_of_3">
+  <!--<a href="{{ .Permalink }}">-->
+    <div class="item" onclick="doclick();" id="{{ .Slug }}" data-vid="{{ .Params.vid }}" data-desc="{{ .Description }}" data-title="{{ .Title }}" data-internal="{{ .Params.internal }}">
+        <div class="overlay color"><img src="{{ .Site.BaseURL }}/{{ .Params.image }}" alt="{{ .Title }}"></div>
+        <div class="itemtext">
+          <h4>{{ .Title }}</h4>
+          <p>{{ .Description }}</p>
+        </div>
+    </div><!--end div item-->
+    <div id="tagsdiv">
+    <ul id="tags">
+        {{ range .Params.tags }}
+          <li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></li>
+        {{ end }}
+      </ul>
     </div>
+  <!--</a>-->
+</div>

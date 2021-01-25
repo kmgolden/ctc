@@ -1,12 +1,13 @@
 {{ partial "header.html" . }}
-    <!--<h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>-->
-		<div class="hero">
-			<figure class="herofig">
-					<div class="video-youtube"><iframe width="640" height="360" src="{{ .Params.vid }}" frameborder="0" allowfullscreen></iframe></div>
-				<div class="herotext">
-					<h3>{{ .Title }}</h3>
-				</div>
-			</figure>
-		</div>
-
+<div class="content">    <!--<h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>-->
+	<div class="entrytext">
+		<h3>{{ .Title }}</h3>
+		{{ .Content }}
+	</div>
+	<div id="hero">				
+	</div>
+		{{ range where .Data.Pages "Section" "entry" }}
+			{{ .Render "li" }}
+		{{ end }}
+</div>
 {{ partial "footer.html" . }}

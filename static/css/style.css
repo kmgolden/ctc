@@ -256,6 +256,19 @@ a:active{
 	line-height: 1.3em;
 }
 
+.entrytext{
+	margin-top: 1.6rem;
+	padding-top: 4rem;
+	padding-bottom: 1rem;
+	margin-bottom: 1.3rem;
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+}
+
+.entrytext > p{
+	margin:0
+}
+
 #tagsdiv{
 	margin-top: -5px;
 }
