@@ -6,7 +6,7 @@ internal = "false"
 tags = ["Editing", "Cinematography"]
 title = "What is Pacific Northwest cuisine?"
 vid = "http://projects.seattletimes.com/2015/what-is-pacific-northwest-cuisine/"
-weight = "52"
+weight = "63"
 
 +++
 Forage, fish and farm with seven of the best chefs in the Northwest.

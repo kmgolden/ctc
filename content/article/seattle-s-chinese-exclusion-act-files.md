@@ -6,6 +6,6 @@ internal = "true"
 tags = ["Editing", "Cinematography"]
 title = "Seattle’s Chinese Exclusion Act Files"
 vid = "https://www.youtube.com/embed/KhFJALBj8_M"
-weight = "33"
+weight = "41"
 
 +++

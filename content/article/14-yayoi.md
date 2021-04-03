@@ -1,4 +1,5 @@
 +++
+draft = true
 date = 2016-12-09T12:51:01Z
 description = "Step inside mirror rooms created by celebrated contemporary artist Yayoi Kusama."
 image = "thumbs/yayoi_kusama.jpg"
