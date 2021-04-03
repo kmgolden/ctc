@@ -5,7 +5,7 @@ image = "thumbs/beyondtheborder.jpg"
 internal = false
 tags = ["Editing", "Cinematography"]
 title = "Beyond the Border"
-vid = "https://st.news/tijuana-asylum"
+vid = "https://projects.seattletimes.com/2019/beyond-the-border-asylum/"
 weight = "31"
 
 +++
