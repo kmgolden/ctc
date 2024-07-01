@@ -5,27 +5,15 @@ tags = ["about", "contact", "video"]
 title = "About"
 
 +++
-Corinne Chin is a Senior Video Journalist at The Seattle Times and the founder and leader of the newsroom’s <a href="http://st.news/inclusivejournalism" target="_blank">Diversity & Inclusion Task Force</a>. As a storyteller, she focuses on in-depth digital video projects like <a href="https://projects.seattletimes.com/2019/beyond-the-border-life-in-mexico-city-after-deportation/" target="_blank">Beyond the Border</a>, a series of visual stories <a href="http://st.news/asylum-tijuana" target="_blank">exploring asylum</a>, <a href="https://www.seattletimes.com/seattle-news/life-after-deportation-a-family-with-roots-in-the-seattle-region-starts-over-in-mexico/" target="_blank">deportation</a> and <a href="https://projects.seattletimes.com/2020/femicide-juarez-mexico-border/" target="_blank">border issues</a> supported by the International Women’s Media Foundation and the Pulitzer Center on Crisis Reporting; and  <a href="http://st.news/under-our-skin" target="_blank" >Under Our Skin</a>, an interactive documentary exploring the words we use – and misuse – to talk about race in America.
 
-Her work has been recognized by the national News and Documentary Emmys, Radio Television Digital News Association (National Edward R. Murrow Award for Overall Excellence), the Online News Association, NPPA Best of Photojournalism, Pictures of the Year International and more.
+Corinne Chin is the director of news talent for recruitment at The Associated Press, working to build and develop a diverse and inclusive global newsroom. She is also a video journalist whose coverage of <a href="http://st.news/disappearingdaughters" target="_blank">femicide on the U.S.-Mexico border</a> earned a National Emmy Award in 2021. 
 
-Corinne is an alumna of the IWMF’s Next Gen Safety Trainers Fellowship and is available for trauma-informed safety and security training. She is also available for public speaking on video storytelling and diversity, equity, inclusion and belonging.
+In her current role, Corinne oversees hiring and recruitment for the AP’s News division, including its Global News Internship program. She is also part of the team running LEAD, an internal leadership program designed to cultivate and empower AP’s future leaders.
 
-Corinne is a graduate of the <a href="https://digitalwomenleaders.com/mentors/corinne-chin/" target="_blank">Poynter Leadership Academy for Women</a>, the Poynter-NABJ Leadership Academy for Diversity, the ASNE Emerging Leaders Institute and the Medill School of Journalism at Northwestern University (MSJ and BSJ). She is a co-director of the Asian American Journalists Association’s Women and Non-Binary Voices, and she is a past president of AAJA Seattle, which you can join for Zoom dim sum on the first Saturday of every month.
+Before joining the AP, Corinne was a senior video journalist at The Seattle Times, where she started its diversity and inclusion task force, and a senior video producer for CNN's team covering <a href="https://www.cnn.com/2021/10/08/americas/hawaii-sign-language-extinction-as-equals-intl-cmd/index.html" target="_blank">gender inequality.</a> As a storyteller, she focused on in-depth digital video projects like <a href="https://projects.seattletimes.com/2019/beyond-the-border-asylum/" target="_blank">Beyond the Border,</a> a series of visual stories exploring asylum, deportation and border issues; and <a href="http://st.news/under-our-skin" target="_blank">Under Our Skin,</a> an interactive documentary exploring the words we use – and misuse – to talk about race in America.
 
-<p><span style="font-weight: bold">The Seattle Times</span><br>
-<a href="https://www.seattletimes.com/seattle-news/behind-the-byline-meet-video-editor-corinne-chin/" target="_blank">Behind the Byline: Meet video editor Corinne Chin</a></p>
+In addition to the national News and Documentary Emmys, her work has been recognized internationally by the Online News Association, Pictures of the Year International, National Edward R. Murrow Awards, National Press Photographers Association's Best of Photojournalism and more. She has also served as a judge for several of these competitions, including the OJAs, POYI and the Society for News Design.
 
-<p><span style="font-weight: bold">Seattle Channel</span><br>
-<a href="http://www.seattlechannel.org/TownSquare?videoid=x101817" target="_blank">Town Square: Seattle Times presents 2018 Pictures of the Year</a></p>
+Corinne draws from her experience reporting across the globe – from Mexico, Brazil, Kenya and more – to offer trauma-informed safety and security training. She is an alumna of the IWMF’s Next Gen Safety Trainers Fellowship. She is also available for public speaking on video storytelling and diversity, equity, inclusion and belonging.
 
-<p><span style="font-weight: bold">The Idea by Atlantic Media</span><br> <a href="https://medium.com/the-idea/q-a-corinne-chin-video-editor-the-seattle-times-1a553abb9378" target="_blank">Q&A: Corinne Chin</a></p>
-
-<p><span style="font-weight: bold">Better News</span><br>
-<a href="https://betternews.org/sharable-win-seattle-times-slack-channel-sensitive-subjects/" target="_blank">How a Seattle Times Slack channel lets people speak up about insensitive coverage</a></p>
-
-<p><span style="font-weight: bold">American Press Institute</span><br>
-<a href="https://www.americanpressinstitute.org/publications/reports/strategy-studies/empathy-reporting/" target="_blank">How to build empathy into reporting</a></p>
-
-<p><span style="font-weight: bold">The Seventh Wave</span><br>
-<a href="http://theseventhwave.co/on-safe-spaces-engagement-and-redefining-what-we-know/" target="_blank">On Safe Spaces, Engagement, and Redefining What We Know</a></p>
+Corinne is a graduate of Poynter’s Leadership Academies for Women and for Diversity, the Maynard 200, ASNE/NLA Emerging Leaders Institute, IWMF Next Gen Safety Trainers fellowship and Northwestern University’s Medill School (MSJ and BSJ). She is a co-director of AAJA Women and Non-Binary Voices and a past president of AAJA Seattle.
