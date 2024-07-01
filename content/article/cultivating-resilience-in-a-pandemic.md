@@ -6,6 +6,6 @@ internal = "true"
 tags = ["editing", "cinematography", "production"]
 title = "Cultivating resilience in a pandemic"
 vid = "https://www.youtube.com/embed/of2qvglkpGs"
-weight = "11"
+weight = "21"
 
 +++
