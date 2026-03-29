@@ -1,24 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Video on Corinne Chin | Video Journalist</title>
     <link>https://corinnechin.video/tags/video/</link>
     <description>Recent content in Video on Corinne Chin | Video Journalist</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 09 Dec 2016 21:54:10 +0000</lastBuildDate>
-    
-	<atom:link href="https://corinnechin.video/tags/video/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://corinnechin.video/tags/video/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
       <link>https://corinnechin.video/about/</link>
       <pubDate>Fri, 09 Dec 2016 21:54:10 +0000</pubDate>
-      
       <guid>https://corinnechin.video/about/</guid>
       <description>Corinne Chin is an Emmy-winning journalist and newsroom leader with a proven record of identifying and developing diverse talent on a global scale. As Director of Video Talent at The New York Times, she leads recruitment and development as the newsroom continues to expand its video journalism across the depth and breadth of the report: producing on-the-ground reporting, pioneering Visual Investigations and video podcasts that showcase the expertise of Times journalists.</description>
     </item>
-    
   </channel>
 </rss>

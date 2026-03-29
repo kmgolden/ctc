@@ -6,8 +6,10 @@
 	</div>
 	<div id="hero">				
 	</div>
-		{{ range where .Data.Pages "Section" "poy78" }}
-			{{ .Render "li" }}
+		{{ with .Site.GetPage "/poy78" }}
+			{{ range .Pages.ByWeight }}
+				{{ .Render "li" }}
+			{{ end }}
 		{{ end }}
 </div>
 {{ partial "footer.html" . }}

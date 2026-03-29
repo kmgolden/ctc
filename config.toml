@@ -4,17 +4,19 @@ languageCode = "en-us"
 pygmentsUseClasses = false
 PygmentsCodeFencesGuessSyntax = true
 pygmentsStyle = "monokai"
-contentdir = "content"
-layoutdir = "layouts"
-publishdir = "public"
 builddrafts = false
-cononifyurls = true
+canonifyURLs = true
 googleAnalytics = "UA-98836806-1"
 
 
 [taxonomies]
   category = "categories"
   tag = "tags"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [params]
   description = "Corinne Chin is an Emmy Award winning video journalist, trauma-informed safety trainer and leader in diversity, equity, belonging and inclusion."

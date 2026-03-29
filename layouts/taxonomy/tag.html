@@ -3,7 +3,7 @@
 <div class="content">
   <div id="hero"></div>
    <div class="tax-div"><h1 id="taxonomytitle">{{ .Title }}</h1></div>
-    {{ range .Data.Pages }}
+    {{ range where .Pages "Section" "article" }}
       {{ .Render "li" }}
     {{ end }}
 </div>
