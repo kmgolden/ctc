@@ -1,1 +1,14 @@
-.DS_Store
+# macOS
+**/.DS_Store
+
+# Hugo build artifacts
+.hugo_build.lock
+
+# Vim swap and backup files
+*.swp
+*.bak
+*.bak2
+
+# SSH / key files (should never be committed)
+ed25519
+ed25519.pub
