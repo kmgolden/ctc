@@ -13,8 +13,10 @@
 					</div>-->
 				</figure>
 			</div>
-					{{ range where .Data.Pages "Section" "article" }}
+				{{ with .Site.GetPage "/article" }}
+					{{ range .Pages.ByWeight }}
 						{{ .Render "li" }}
 					{{ end }}
+				{{ end }}
 		</div><!--end content-->
 {{ partial "footer.html" . }}

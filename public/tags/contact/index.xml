@@ -1,25 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Contact on Corinne Chin | Video Journalist</title>
     <link>https://corinnechin.video/tags/contact/</link>
     <description>Recent content in Contact on Corinne Chin | Video Journalist</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 09 Dec 2016 21:54:10 +0000</lastBuildDate>
-    
-	<atom:link href="https://corinnechin.video/tags/contact/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://corinnechin.video/tags/contact/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
       <link>https://corinnechin.video/about/</link>
       <pubDate>Fri, 09 Dec 2016 21:54:10 +0000</pubDate>
-      
       <guid>https://corinnechin.video/about/</guid>
-      <description>Corinne Chin is the director of news talent for recruitment at The Associated Press, working to build and develop a diverse and inclusive global newsroom. She is also a video journalist whose coverage of femicide on the U.S.-Mexico border earned a National Emmy Award in 2021.
-In her current role, Corinne leads global hiring and recruitment for the AP’s News division, including its Global News Internship program. She is also part of the team running LEAD, an internal leadership program designed to cultivate and empower AP’s future leaders.</description>
+      <description>Corinne Chin is the director of news talent for recruitment at The Associated Press, working to build and develop a diverse and inclusive global newsroom. She is also a video journalist whose coverage of femicide on the U.S.-Mexico border earned a National Emmy Award in 2021.&#xA;In her current role, Corinne leads global hiring and recruitment for the AP’s News division, including its Global News Internship program. She is also part of the team running LEAD, an internal leadership program designed to cultivate and empower AP’s future leaders.</description>
     </item>
-    
   </channel>
 </rss>

@@ -18,7 +18,7 @@
 	{{ range .Site.Params.custom_css }}
         <link rel="stylesheet" href="{{ $.Site.BaseURL }}{{ . }}">
     {{ end }}
-		{{ .Hugo.Generator }}
+		{{ hugo.Generator }}
 	{{ template "_internal/google_analytics.html" . }}
 </head>
 <body>
